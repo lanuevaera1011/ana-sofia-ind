@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ana Sofia Indumentaria - Calidad y Estilo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Montserrat', sans-serif; }
+        .titulo-celeste {
+            color: #7dd3fc;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+        }
+        .hide-scrollbar::-webkit-scrollbar { display: none; }
+        .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-700">
+
+    <!-- Header -->
+    <header class="fixed w-full z-50 bg-white/80 backdrop-blur-md shadow-sm">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex flex-col">
+                <h1 class="text-2xl font-bold titulo-celeste uppercase tracking-wider">Ana Sofia Indumentaria</h1>
+                <span class="text-xs text-slate-400 font-medium italic">Moda de calidad al mejor precio para toda Argentina</span>
+            </div>
+            <nav class="hidden md:flex space-x-8 font-semibold text-sm uppercase">
+                <a href="#empresa" class="hover:text-sky-400 transition">Empresa</a>
+                <a href="#servicios" class="hover:text-sky-400 transition">Servicios</a>
+                <a href="#trayectoria" class="hover:text-sky-400 transition">Trayectoria</a>
+                <a href="#testimonios" class="hover:text-sky-400 transition">Clientes</a>
+                <a href="#contacto" class="hover:text-sky-400 transition">Contacto</a>
+            </nav>
+            <button class="md:hidden text-slate-600">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero / La Empresa -->
+    <section id="empresa" class="pt-32 pb-20 bg-pink-50/50">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto text-center mb-16">
+                <h2 class="text-4xl font-bold titulo-celeste mb-6 uppercase">Nuestra Identidad</h2>
+                <div class="space-y-6 text-lg leading-relaxed text-slate-600">
+                    <p>
+                        Ana Sofia Indumentaria nace de un sueño profundo por democratizar la moda de alta calidad en Argentina. Nuestra historia se teje con la pasión de brindar prendas que no solo vistan, sino que cuenten historias de confianza y comodidad. Nos establecimos con un enfoque claro: eliminar los intermediarios innecesarios para que cada mujer en el país pueda acceder a textiles de primera línea sin comprometer su economía.
+                    </p>
+                    <p>
+                        Nuestros valores fundamentales son la transparencia en el origen de nuestros materiales, la ética en cada eslabón de la cadena productiva y una dedicación obsesiva por la satisfacción de nuestras clientas. Creemos que la moda es una herramienta de expresión personal, y por ello, seleccionamos cuidadosamente cada diseño para asegurar versatilidad y durabilidad.
+                    </p>
+                    <p>
+                        Ubicados estratégicamente en el corazón de la capital, nuestra sede central se encuentra en PI Y MARGALL 480 Piso 3 Dpto H 1155 CIUDAD AUTONOMA BUENOS AIRES. Desde este centro de operaciones coordinamos una logística federal que abraza desde Jujuy hasta Tierra del Fuego, llevando la excelencia de nuestro taller directamente a tu puerta.
+                    </p>
+                    <p class="font-semibold text-slate-800">
+                        Nuestra Misión: Transformar el mercado minorista online mediante una propuesta donde la calidad premium y el precio justo convivan en perfecta armonía, respaldados por un soporte humano excepcional.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold titulo-celeste text-center mb-16 uppercase">Servicios Exclusivos</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+                <!-- Servicio 1 -->
+                <div class="p-8 border border-sky-100 rounded-2xl bg-sky-50/30 hover:shadow-lg transition">
+                    <h3 class="text-xl font-bold mb-4 text-slate-800">Venta Minorista Federal</h3>
+                    <p class="text-slate-600 mb-4">Acceso a nuestro catálogo completo de temporada con envíos garantizados a cualquier punto de la República Argentina.</p>
+                    <ul class="text-sm space-y-2 text-slate-500 italic">
+                        <li>- Stock actualizado en tiempo real</li>
+                        <li>- Despachos en menos de 24 horas</li>
+                        <li>- Embalaje protector premium</li>
+                    </ul>
+                </div>
+                <!-- Servicio 2 -->
+                <div class="p-8 border border-sky-100 rounded-2xl bg-sky-50/30 hover:shadow-lg transition">
+                    <h3 class="text-xl font-bold mb-4 text-slate-800">Asesoramiento de Imagen Online</h3>
+                    <p class="text-slate-600 mb-4">Brindamos consultas personalizadas para ayudarte a elegir las prendas que mejor se adapten a tu estilo y morfología.</p>
+                    <ul class="text-sm space-y-2 text-slate-500 italic">
+                        <li>- Guías de talles exactas por prenda</li>
+                        <li>- Sugerencias de combinaciones estacionales</li>
+                        <li>- Atención vía videollamada o chat</li>
+                    </ul>
+                </div>
+                <!-- Servicio 3 -->
+                <div class="p-8 border border-sky-100 rounded-2xl bg-sky-50/30 hover:shadow-lg transition border-2 border-sky-300">
+                    <h3 class="text-xl font-bold mb-4 text-slate-800">Soporte y Atención Prioritaria</h3>
+                    <p class="text-slate-600 mb-4 text-sky-700 font-medium">Nuestro pilar fundamental es el acompañamiento total antes, durante y después de tu compra.</p>
+                    <ul class="text-sm space-y-2 text-slate-500 italic">
+                        <li>- Respuesta humana inmediata sin bots</li>
+                        <li>- Resolución de dudas técnicas en minutos</li>
+                        <li>- Seguimiento personalizado del envío</li>
+                    </ul>
+                </div>
+                <!-- Servicio 4 -->
+                <div class="p-8 border border-sky-100 rounded-2xl bg-sky-50/30 hover:shadow-lg transition">
+                    <h3 class="text-xl font-bold mb-4 text-slate-800">Control de Calidad Riguroso</h3>
+                    <p class="text-slate-600 mb-4">Cada prenda es inspeccionada manualmente para asegurar costuras perfectas y textiles sin defectos.</p>
+                    <ul class="text-sm space-y-2 text-slate-500 italic">
+                        <li>- Verificación de fibras textiles</li>
+                        <li>- Pruebas de resistencia de color</li>
+                        <li>- Garantía de satisfacción total</li>
+                    </ul>
+                </div>
+                <!-- Servicio 5 -->
+                <div class="p-8 border border-sky-100 rounded-2xl bg-sky-50/30 hover:shadow-lg transition">
+                    <h3 class="text-xl font-bold mb-4 text-slate-800">Logística Inversa Simplificada</h3>
+                    <p class="text-slate-600 mb-4">Si el talle no es el correcto, nuestro sistema de cambios es el más ágil y transparente del mercado.</p>
+                    <ul class="text-sm space-y-2 text-slate-500 italic">
+                        <li>- Proceso autogestionado online</li>
+                        <li>- Retiros a domicilio para cambios</li>
+                        <li>- Crédito inmediato en tienda</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trayectoria -->
+    <section id="trayectoria" class="py-20 bg-slate-100/50">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl font-bold titulo-celeste mb-12 uppercase text-center">Nuestra Trayectoria y Visión</h2>
+                <div class="relative border-l-2 border-sky-200 pl-8 space-y-12">
+                    <div>
+                        <span class="absolute -left-2.5 w-5 h-5 bg-sky-400 rounded-full"></span>
+                        <h3 class="text-xl font-bold text-slate-800 uppercase">Génesis del Proyecto - 01-05-2026</h3>
+                        <p class="mt-2 text-slate-600 leading-relaxed">
+                            Ana Sofia Indumentaria inicia sus operaciones con la visión de revolucionar el e-commerce textil. En esta fecha clave, establecimos nuestro primer centro de diseño, priorizando la contratación de mano de obra local calificada y la adquisición de maquinaria de última generación para cortes láser y acabados de alta precisión.
+                        </p>
+                    </div>
+                    <div>
+                        <span class="absolute -left-2.5 w-5 h-5 bg-sky-300 rounded-full"></span>
+                        <h3 class="text-xl font-bold text-slate-800 uppercase">Expansión y Logros Tecnológicos</h3>
+                        <p class="mt-2 text-slate-600 leading-relaxed">
+                            Rápidamente escalamos nuestras operaciones mediante la implementación de una plataforma inteligente de gestión de talles, reduciendo el margen de error en las compras online en un 95 por ciento. Logramos convenios estratégicos con los principales operadores logísticos del país, garantizando una trazabilidad completa desde PI Y MARGALL hasta el destino final.
+                        </p>
+                    </div>
+                    <div>
+                        <span class="absolute -left-2.5 w-5 h-5 bg-sky-200 rounded-full"></span>
+                        <h3 class="text-xl font-bold text-slate-800 uppercase">Hitos y Reconocimientos</h3>
+                        <p class="mt-2 text-slate-600 leading-relaxed">
+                            Hemos sido reconocidos por nuestra excelencia en la atención al cliente, destacándonos como la tienda con mejor soporte humano en el sector de indumentaria minorista. Nuestra capacidad para resolver inquietudes en tiempo récord nos ha permitido fidelizar a miles de argentinas que buscan seguridad en su inversión de moda.
+                        </p>
+                    </div>
+                    <div>
+                        <span class="absolute -left-2.5 w-5 h-5 bg-sky-100 rounded-full"></span>
+                        <h3 class="text-xl font-bold text-slate-800 uppercase">Visión a Futuro</h3>
+                        <p class="mt-2 text-slate-600 leading-relaxed">
+                            Nos proyectamos como la marca líder en el mercado digital nacional, integrando realidades aumentadas para probadores virtuales y expandiendo nuestra línea de materiales sustentables. Ana Sofia Indumentaria seguirá siendo sinónimo de calidad inalcanzable para la competencia y precios que respetan el esfuerzo de nuestras clientas.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold titulo-celeste text-center mb-12 uppercase">Opiniones Reales</h2>
+            <div class="flex overflow-x-auto gap-6 pb-8 snap-x hide-scrollbar">
+                <!-- Testimonio 1 -->
+                <div class="min-w-[320px] md:min-w-[450px] snap-center bg-pink-50/30 p-8 rounded-3xl border border-pink-100 flex items-center gap-6">
+                    <img src="https://randomuser.me/api/portraits/women/12.jpg" alt="Cliente" class="w-20 h-20 rounded-full border-2 border-sky-200">
+                    <div>
+                        <p class="text-slate-600 italic mb-4">La calidad de las telas es impresionante, superó mis expectativas por el precio que pagué.</p>
+                        <h4 class="font-bold text-slate-800">Martina Gonzalez</h4>
+                        <span class="text-xs text-slate-400 uppercase">Directora Creativa en Estudio M</span>
+                    </div>
+                </div>
+                <!-- Testimonio 2 -->
+                <div class="min-w-[320px] md:min-w-[450px] snap-center bg-pink-50/30 p-8 rounded-3xl border border-pink-100 flex items-center gap-6">
+                    <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Cliente" class="w-20 h-20 rounded-full border-2 border-sky-200">
+                    <div>
+                        <p class="text-slate-600 italic mb-4">El soporte por chat fue increíble. Me ayudaron con el talle y llegó perfecto a Córdoba.</p>
+                        <h4 class="font-bold text-slate-800">Valeria Rossi</h4>
+                        <span class="text-xs text-slate-400 uppercase">Gerente de Ventas en TechSolution</span>
+                    </div>
+                </div>
+                <!-- Testimonio 3 -->
+                <div class="min-w-[320px] md:min-w-[450px] snap-center bg-pink-50/30 p-8 rounded-3xl border border-pink-100 flex items-center gap-6">
+                    <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Cliente" class="w-20 h-20 rounded-full border-2 border-sky-200">
+                    <div>
+                        <p class="text-slate-600 italic mb-4">Compré para mi emprendimiento y la atención es de otro nivel. Muy profesionales.</p>
+                        <h4 class="font-bold text-slate-800">Lucía Mendez</h4>
+                        <span class="text-xs text-slate-400 uppercase">Propietaria de Boutique L</span>
+                    </div>
+                </div>
+                <!-- Testimonio 4 -->
+                <div class="min-w-[320px] md:min-w-[450px] snap-center bg-pink-50/30 p-8 rounded-3xl border border-pink-100 flex items-center gap-6">
+                    <img src="https://randomuser.me/api/portraits/women/22.jpg" alt="Cliente" class="w-20 h-20 rounded-full border-2 border-sky-200">
+                    <div>
+                        <p class="text-slate-600 italic mb-4">Excelente la rapidez del envío. La ropa es cómoda y muy moderna. Muy recomendables.</p>
+                        <h4 class="font-bold text-slate-800">Sofía Ortega</h4>
+                        <span class="text-xs text-slate-400 uppercase">Analista Senior en Global Bank</span>
+                    </div>
+                </div>
+                <!-- Testimonio 5 -->
+                <div class="min-w-[320px] md:min-w-[450px] snap-center bg-pink-50/30 p-8 rounded-3xl border border-pink-100 flex items-center gap-6">
+                    <img src="https://randomuser.me/api/portraits/women/8.jpg" alt="Cliente" class="w-20 h-20 rounded-full border-2 border-sky-200">
+                    <div>
+                        <p class="text-slate-600 italic mb-4">Hacía mucho que no encontraba una marca tan seria y con estos precios en Argentina.</p>
+                        <h4 class="font-bold text-slate-800">Elena Paz</h4>
+                        <span class="text-xs text-slate-400 uppercase">Coordinadora en Innova Soft</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="py-20 bg-sky-50/30">
+        <div class="container mx-auto px-6">
+            <div class="max-w-2xl mx-auto bg-white p-10 rounded-3xl shadow-xl">
+                <h2 class="text-3xl font-bold titulo-celeste text-center mb-8 uppercase">Contactanos</h2>
+                <p class="text-center text-slate-500 mb-10">¿Tienes dudas? Nuestro equipo de Soporte y Atención al Cliente está listo para ayudarte de forma personalizada.</p>
+                <form class="space-y-6">
+                    <div>
+                        <label class="block text-sm font-semibold mb-2">Nombre Completo</label>
+                        <input type="text" class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-sky-300 transition">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-semibold mb-2">Email de Contacto</label>
+                        <input type="email" class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-sky-300 transition">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-semibold mb-2">Mensaje</label>
+                        <textarea rows="4" class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-sky-300 transition"></textarea>
+                    </div>
+                    <button class="w-full bg-sky-400 hover:bg-sky-500 text-white font-bold py-4 rounded-xl transition shadow-lg shadow-sky-200 uppercase tracking-widest">
+                        Enviar Consulta
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-300 py-16">
+        <div class="container mx-auto px-6 grid md:grid-cols-3 gap-12 text-center md:text-left">
+            <div>
+                <h3 class="text-white font-bold text-xl mb-4">Ana Sofia Indumentaria</h3>
+                <p class="text-sm leading-relaxed">
+                    Dedicados a la excelencia textil con un compromiso inquebrantable por la calidad y el soporte humano. Venta minorista online con llegada a todo el territorio argentino.
+                </p>
+            </div>
+            <div>
+                <h4 class="text-white font-bold mb-4">Información Legal</h4>
+                <ul class="text-sm space-y-2">
+                    <li>Nombre Fiscal: Ana Sofia Indumentaria</li>
+                    <li>Dirección: PI Y MARGALL 480 Piso 3 Dpto H</li>
+                    <li>1155 CIUDAD AUTONOMA BUENOS AIRES</li>
+                    <li>Argentina</li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-white font-bold mb-4">Canales Directos</h4>
+                <ul class="text-sm space-y-2">
+                    <li>Email: contacto@anasofiaind.digital</li>
+                    <li>Teléfono: +5491178216395</li>
+                    <li class="pt-4 text-sky-400 font-bold uppercase tracking-tighter">Atención al Cliente Prioritaria</li>
+                </ul>
+            </div>
+        </div>
+        <div class="container mx-auto px-6 mt-12 pt-8 border-t border-slate-800 text-center text-xs text-slate-500 italic">
+            Ana Sofia Indumentaria - Todos los derechos reservados - 2024
+        </div>
+    </footer>
+
+</body>
+</html>
